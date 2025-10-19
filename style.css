@@ -1,0 +1,89 @@
+/* Importa la hoja de estilos de la fuente desde Fontshare para poder usarla después */
+@import url('https://api.fontshare.com/v2/css?f[]=general-sans@400&display=swap');
+
+/* Selector universal: resetea márgenes, padding y define el modelo de caja para TODOS los elementos */
+*{
+   margin: 0;                 /* elimina el margen externo por defecto */
+   padding: 0;                /* elimina el relleno interno por defecto */
+   box-sizing: border-box;    /* hace que el width/height incluyan padding y borde (modelo de caja más predecible) */
+}
+
+body{
+  font-family: 'General sans', sans-serif; /* define la tipografía base y una alternativa */
+  background-color: #f5f5f5;               /* color de fondo claro para toda la página */
+  color: #333;                             /* color de texto principal */
+  padding: 20px;                           /* espacio interno alrededor del contenido */
+}
+
+.encabezado h1{
+  font-family: 'General sans', sans-serif; /* tipografía específica para el título */
+  font-size: 2rem;                         /* tamaño de fuente grande (≈ 32px si 1rem=16px) */
+  margin-bottom: 10px;                     /* separación con el elemento inferior */
+  text-align: center;                      /* centra el texto horizontalmente */
+}
+
+/* Contenedor general de las tarjetas */
+.menu nav{
+  display: flex;                           /* activa flexbox en el contenedor de navegación */
+  justify-content: center;                 /* centra horizontalmente todas las cards */
+  align-items: center;                     /* alinea verticalmente los elementos */
+  gap: 50px;                               /* espacio horizontal entre cards */
+  background-color: #f5f5f5;               /* fondo claro del navbar */
+  padding: 15px;                           /* espacio interno del contenedor */
+}
+
+
+/* Tarjetas de navegación */
+.contenedor {
+  display: flex;                           /* activa flexbox en la tarjeta */
+  flex-direction: column;                  /* organiza el contenido en columna */
+  background-color: white;                 /* fondo blanco de la tarjeta */
+  border: 2px solid #ddd;                  /* borde gris claro */
+  border-radius: 12px;                     /* esquinas redondeadas */
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1); /* sombra suave para efecto elevado */
+  padding: 20px;                           /* espacio interno */
+  max-width: auto;                         /* (sin efecto real — auto no establece un máximo) */
+  max-height: auto;                        /* (idem arriba — auto no limita altura) */
+  /* width: 300px;
+  height: 200px; */                        /* ejemplo de tamaño fijo si se desea */
+  text-align: center;                      /* centra todo el texto dentro de la tarjeta */
+}
+
+.contenedor:hover {
+  transform: translateY(-5px);             /* al pasar el mouse, levanta la tarjeta 5px (efecto flotante) */
+}
+
+
+/* Icono dentro de cada tarjeta */
+.contenedor .icono {
+  display: flex;                           /* activa flexbox dentro del contenedor de ícono */
+  align-items: center;                     /* centra el emoji verticalmente */
+  justify-content: center;                 /* centra el emoji horizontalmente */
+  font-size: 32px;                         /* tamaño visual del emoji */
+  margin: 0 auto 10px;                     /* sin margen arriba, centrado horizontal y separación abajo */
+}
+
+.contenedor h2 {
+  font-size: 1.2rem;                       /* tamaño intermedio para subtítulo */
+  margin-bottom: 5px;                      /* pequeña separación debajo */
+}
+
+.contenedor p {
+  text-decoration: underline;              /* subraya el texto del párrafo */
+  margin-bottom: 15px;                     /* separación debajo del párrafo */
+  color: #333;                             /* color de texto gris oscuro */
+}
+
+.contenedor a {
+  display: inline-block;                   /* permite aplicar padding y bordes al enlace */
+  padding: 10px 15px;                      /* espacio interno horizontal y vertical */
+  background-color: #0ea5e9;               /* color de fondo azul celeste */
+  color: white;                            /* color del texto del botón */
+  text-decoration: none;                   /* elimina el subrayado de los enlaces */
+  border-radius: 8px;                      /* bordes redondeados para apariencia de botón */
+  font-weight: 600;                        /* texto en seminegrita */
+  transition: background-color .2s ease;   /* transición suave al cambiar el color de fondo */
+}
+
+
+
