@@ -5,110 +5,110 @@
 *{
    margin: 0;                 /* elimina el margen externo por defecto */
    padding: 0;                /* elimina el relleno interno por defecto */
-   box-sizing: border-box;    /* hace que el width/height incluyan padding y borde (modelo de caja más predecible) */
+   box-sizing: border-box;    /* el width/height incluyen padding y borde (modelo de caja predecible) */
 }
 
 body{
-  font-family: 'General sans', sans-serif; /* define la tipografía base y una alternativa */
-  background-color: #f5f5f5;               /* color de fondo claro para toda la página */
+  font-family: 'General Sans', sans-serif; /* tipografía base + fallback genérico */
+  background-color: #f5f5f5;               /* fondo claro de toda la página */
   color: #333;                             /* color de texto principal */
-  padding: 20px;                           /* espacio interno alrededor del contenido */
+  padding: 20px;                           /* aire interno del body */
 }
 
 .encabezado h1{
-  font-family: 'General sans', sans-serif; /* tipografía específica para el título */
-  font-size: 2rem;                         /* tamaño de fuente grande (≈ 32px si 1rem=16px) */
-  margin-bottom: 10px;                     /* separación con el elemento inferior */
-  text-align: center;                      /* centra el texto horizontalmente */
+  font-family: 'General Sans', sans-serif; /* fija la misma fuente en el título */
+  font-size: 2rem;                         /* tamaño del título (≈32px si 1rem=16px) */
+  margin-bottom: 10px;                     /* separa del subtítulo */
+  text-align: center;                      /* centra el texto */
 }
 
 .encabezado p{
-  font-family: 'General sans', sans-serif; /* tipografía específica para el título */
-  font-size: 1rem;                         /* tamaño de fuente grande (≈ 32px si 1rem=16px) */
-  text-align: center;                      /* centra el texto horizontalmente */
+  font-family: 'General Sans', sans-serif; /* misma familia en el subtítulo */
+  font-size: 1rem;                         /* tamaño del párrafo bajo el h1 */
+  text-align: center;                      /* centrado */
 }
-
 
 /* Contenedor general de las tarjetas */
 .menu nav{
-  display: flex;                           /* activa flexbox en el contenedor de navegación */
-  justify-content: center;                 /* centra horizontalmente todas las cards */
-  align-items: center;                     /* alinea verticalmente los elementos */
-  gap: 50px;                               /* espacio horizontal entre cards */
-  background-color: #f5f5f5;               /* fondo claro del navbar */
-  padding: 15px;                           /* espacio interno del contenedor */
+  display: flex;                           /* activa flexbox para distribuir las cards */
+  justify-content: center;                 /* centra el conjunto de cards horizontalmente */
+  align-items: center;                     /* alinea verticalmente (útil si hay alturas distintas) */
+  gap: 50px;                               /* espacio entre cards */
+  background-color: #f5f5f5;               /* fondo suave del contenedor */
+  padding: 15px;                           /* aire interno del contenedor */
 }
 
-/* Tarjetas de producto */
+/* Tarjetas de producto (tamaño fijo) */
 .card {
-  width: 260px;                 /* ancho fijo */
-  height: 310px;                /* alto fijo */
-  box-sizing: border-box;       /* el padding cuenta dentro del alto/ancho */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background: #fff;
-  border: 2px solid #ddd;
-  border-radius: 12px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-  padding: 16px;
-  transition: transform .15s ease;
+  width: 260px;                 /* ancho fijo de la card */
+  height: 310px;                /* alto fijo de la card */
+  box-sizing: border-box;       /* incluye padding/borde en el cálculo de ancho/alto */
+  display: flex;                /* usa flex para ordenar su contenido */
+  flex-direction: column;       /* apila: imagen/icono → h2 → p → botón */
+  align-items: center;          /* centra los hijos horizontalmente */
+  text-align: center;           /* centra el texto dentro de la card */
+  background: #fff;             /* fondo blanco de la tarjeta */
+  border: 2px solid #ddd;       /* borde gris claro */
+  border-radius: 12px;          /* esquinas redondeadas */
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1); /* sombra suave */
+  padding: 16px;                /* aire interno */
+  transition: transform .15s ease; /* transición para el efecto hover */
 }
 
 .card:hover {
-  transform: translateY(-5px);             /* al pasar el mouse, levanta la tarjeta 5px (efecto flotante) */
+  transform: translateY(-5px);  /* eleva la card 5px al pasar el mouse */
 }
 
+/* Caja de imagen en la parte superior de la card */
 .card .imagen {
-  display: flex;                /* centra el contenido */
-  justify-content: center;      /* centra horizontalmente */
-  align-items: center;          /* centra verticalmente */
-  margin: 0 auto 10px;          /* margen inferior para separar de h2 */
-  width: 100%;                  /* que ocupe todo el ancho de la card */
-  max-height: 150px;            /* altura máxima visible */
-  overflow: hidden;             /* oculta lo que sobresalga */
-  border-radius: 8px;           /* bordes redondeados para la imagen */
+  display: flex;                /* centra el contenido dentro de la caja */
+  justify-content: center;      /* centra horizontalmente la imagen */
+  align-items: center;          /* centra verticalmente la imagen */
+  margin: 0 auto 10px;          /* centra la caja y separa del título */
+  width: 100%;                  /* ocupa todo el ancho de la card */
+  max-height: 150px;            /* altura máxima del área de imagen */
+  overflow: hidden;             /* oculta lo que se salga del alto máximo */
+  border-radius: 8px;           /* bordes redondeados del área visual */
 }
 
 .card .imagen img {
-  width: 100%;                  /* que ocupe el ancho disponible */
-  height: auto;                 /* mantiene la proporción */
-  object-fit: cover;            /* recorta si es necesario sin deformar */
-  display: block;               /* elimina espacios indeseados debajo de la imagen */
+  width: 100%;                  /* imagen ocupa el ancho disponible */
+  height: auto;                 /* mantiene proporción original */
+  object-fit: cover;            /* rellena la caja recortando si hace falta (sin deformar) */
+  display: block;               /* elimina el espacio fantasma de imágenes inline */
 }
 
 .card h2 {
-  font-size: 1.2rem;                       /* tamaño intermedio para subtítulo */
-  margin-bottom: 5px;                      /* pequeña separación debajo */
+  font-size: 1.2rem;            /* tamaño del subtítulo del producto */
+  margin-bottom: 5px;           /* separación con el párrafo */
 }
 
 .card p {
-  text-decoration: underline;              /* subraya el texto del párrafo */
-  margin-bottom: 15px;                     /* separación debajo del párrafo */
-  color: #333;                             /* color de texto gris oscuro */
+  text-decoration: underline;   /* subraya el texto (tu “detalle” visual) */
+  margin-bottom: 15px;          /* separación con el botón */
+  color: #333;                  /* color del texto del párrafo */
 }
 
 .card a {
-  display: inline-block;                   /* permite aplicar padding y bordes al enlace */
-  padding: 10px 15px;                      /* espacio interno horizontal y vertical */
-  background-color: #0ea5e9;               /* color de fondo azul celeste */
-  color: white;                            /* color del texto del botón */
-  text-decoration: none;                   /* elimina el subrayado de los enlaces */
-  border-radius: 8px;                      /* bordes redondeados para apariencia de botón */
-  font-weight: 600;                        /* texto en seminegrita */
-  transition: background-color .2s ease;   /* transición suave al cambiar el color de fondo */
+  display: inline-block;        /* permite padding/borde como botón */
+  padding: 10px 15px;           /* tamaño del botón */
+  background-color: #0ea5e9;    /* fondo azul celeste */
+  color: white;                 /* texto blanco */
+  text-decoration: none;        /* sin subrayado en el enlace */
+  border-radius: 8px;           /* esquinas redondeadas del botón */
+  font-weight: 600;             /* peso de fuente semibold */
+  transition: background-color .2s ease; /* transición suave al hover */
 }
 
 .card .icono {
-  display: flex;                           /* activa flexbox dentro del contenedor de ícono */
-  align-items: center;                     /* centra el emoji verticalmente */
-  justify-content: center;                 /* centra el emoji horizontalmente */
-  font-size: 32px;                         /* tamaño visual del emoji */
-  margin: 0 auto 10px;                     /* sin margen arriba, centrado horizontal y separación abajo */
+  display: flex;                /* centra el emoji dentro de su caja */
+  align-items: center;          /* centrado vertical */
+  justify-content: center;      /* centrado horizontal */
+  font-size: 32px;              /* tamaño del emoji */
+  margin: 0 auto 10px;          /* centrado + separación inferior */
 }
 
 
-/*PRUEBA*/
+
 
 
