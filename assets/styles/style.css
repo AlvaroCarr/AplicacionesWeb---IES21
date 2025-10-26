@@ -1,0 +1,207 @@
+@import url('https://api.fontshare.com/v2/css?f[]=general-sans@400&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'General sans', sans-serif;
+   font-size: 20px;
+}
+
+body {
+    background-color: #001f3f;
+}
+
+.encabezado {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 3%;
+}
+
+.logo img {
+    height: 80px;
+    width: auto;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo:hover {
+    transform: translateY(-5px);
+}
+
+.items li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.items li a{
+    text-decoration: none;
+    color:black;
+    font-size: 700;
+}
+
+.items li a:hover {
+    background-color: black;
+    color: white;
+    padding: 9px 25px;
+    border-radius: 20px;
+}
+
+.boton button {
+    font-weight: 700;
+    padding: 9px 25px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: rgb(151, 151, 151);
+    cursor: pointer;
+}
+
+.boton button:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+  font-family: 'General sans', sans-serif;
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  padding: 10px;
+  max-width: auto;
+  max-height: auto;
+  width: 400px;
+}
+
+.contenedor:hover {
+  transform: translateY(-5px);
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.input label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color:black;
+  font-size: 20px;
+}
+
+.input input {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid rgb(63, 63, 63);
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 30px;
+}
+
+.envio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.envio button {
+  background-color: #001f3f;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.caja-prod {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 250px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  padding: 16px;
+  margin: 30px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card .imagen img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 15px;
+  text-decoration: underline;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.card .precio {
+  font-size: 20px;
+  text-decoration: none;
+  margin-bottom: 15px;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.card a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #0ea5e9;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.card a:hover{
+  background-color: black;
+}
+
+
