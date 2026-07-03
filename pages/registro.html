@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tienda</title>
+    <link rel="stylesheet" href="../assets/styles/style1.css">
+</head>
+<body>
+    <header>
+
+        <div class="logo">
+
+            <a href ="../index.html"> <img src="../assets/img/logo-deportivo.png" alt=""></a>
+
+        </div>
+
+
+        <nav class="navbar">
+
+            <a href="hombre.html">Tienda Hombre</a>
+            <a href="mujer.html">Tienda Mujer</a>
+            <a href="niño_a.html">Tienda Niño/a</a>
+
+        </nav>
+
+        <div class="acceso">
+
+            <a href="registro.html" id = "Registro">Registrar</a>
+            <a href="login.html" id = "Login">Login</a>
+            <a href="login.html" id = "Logout">Logout</a>
+            <a href ="carrito.html"> <img src="../assets/img/carrito.png" alt=""></a>
+
+                     
+            
+        </div> 
+
+    </header>
+
+    <div class="formulario">
+
+        <h2>¡COMPLETE SUS DATOS!</h2>
+
+        <form action="" method="post" id="form">
+
+            
+            <div class = "input">
+                <label for = "Nombre">Nombre:</label>
+                <br>
+                <input type = "text" id = "nombre" name = "nombre" required>
+            </div>
+
+            <div class = "input">
+                <label for = "Apellido">Apellido:</label>
+                <br>
+                <input type = "text" id = "apellido" name = "apellido" required>
+            </div>
+
+            <div class = "input">
+                <label for = "Email">Email:</label>
+                <br>
+                <input type = "email" id = "email"  name = "email" required>
+            </div>
+
+            <div class = "input">
+                <label for = "contraseña">Contraseña:</label>
+                <br>
+                <input type = "password" id = "contraseña"  name = "contraseña" required>
+            </div>
+
+            <div class = "input">
+                <label for = "Fecha">Fecha Nacimiento:</label>
+                <br>
+                <input type = "date" id = "fecha"  name = "fecha" required >
+            </div>
+
+            <div class="enviar">
+            
+                <button type="submit" >
+                <p>Enviar</p>
+
+            </button>
+
+            </div>
+
+
+        </form>
+
+        
+
+    </div>
+
+    <script src="../assets/js/validacion_btn.js"></script> 
+    <script src="../assets/js/registro.js"></script>   
+     
+
+</body>
+</html>

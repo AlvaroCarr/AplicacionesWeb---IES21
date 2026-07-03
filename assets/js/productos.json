@@ -1,0 +1,385 @@
+[
+    {
+        "imagen": "/assets/img/hombre1.jpg",
+        "titulo": "CAMISETA BOCA JUNIORS",
+        "desc": "¡Ultima en oferta!",
+        "precio": "$149999",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+    {
+        "imagen": "/assets/img/hombre2.jpg",
+        "titulo": "CAMPERA REEBOK",
+        "desc": "¡Oferta imperdible!",
+        "precio": "$156299",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+    {
+        "imagen": "/assets/img/hombre3.jpg",
+        "titulo": "PANTALON KAPPA",
+        "desc": "¡Llevátelo hoy!",
+        "precio": "$58199",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+    {
+        "imagen": "/assets/img/hombre4.jpg",
+        "titulo": "ZAPATILLAS REEBOK RUNNING",
+        "desc": "¡Corré esta oferta!",
+        "precio": "$84999",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+    {
+        "imagen": "/assets/img/hombre5.jpg",
+        "titulo": "SHORT ADIDAS DEPORTIVO",
+        "desc": "¡Precio de locura!",
+        "precio": "$54999",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+    {
+        "imagen": "/assets/img/hombre6.jpg",
+        "titulo": "BUZO ADIDAS ESSENTIALS",
+        "desc": "¡Abrigo con estilo!",
+        "precio": "$109999",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+    {
+        "imagen": "/assets/img/hombre7.jpg",
+        "titulo": "REMERA ADIDAS WORKOUT",
+        "desc": "¡Entrená cómodo!",
+        "precio": "$44999",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+    {
+        "imagen": "/assets/img/hombre8.jpg",
+        "titulo": "MUSCULOSA ADIDAS RUNNING",
+        "desc": "¡Liviana para correr!",
+        "precio": "$34999",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+    {
+        "imagen": "/assets/img/hombre9.jpg",
+        "titulo": "CAMISETA DE ARGENTINA",
+        "desc": "¡Pasión albiceleste!",
+        "precio": "$149999",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+    {
+        "imagen": "/assets/img/hombre10.jpg",
+        "titulo": "ZAPATILLA ADIDAS RUNNING",
+        "desc": "¡Pisada firme!",
+        "precio": "$99999",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+    {
+        "imagen": "/assets/img/hombre11.jpg",
+        "titulo": "MEDIAS TOPPER",
+        "desc": "¡Estilo asegurado!",
+        "precio": "$11999",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+    {
+        "imagen": "/assets/img/hombre12.jpg",
+        "titulo": "CAMPERON ATOMIK",
+        "desc": "¡Comodidad total!",
+        "precio": "$248999",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+    {
+        "imagen": "/assets/img/hombre13.jpg",
+        "titulo": "REMERA RUN NIKE",
+        "desc": "¡Oferta imperdible!",
+        "precio": "$70000",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+    {
+        "imagen": "/assets/img/hombre14.jpg",
+        "titulo": "PANTALÓN PUMA",
+        "desc": "¡Look deportivo!",
+        "precio": "$89999",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+        {
+        "imagen": "/assets/img/hombre15.jpg",
+        "titulo": "ZAPATILLA NIKE RUNNING",
+        "desc": "¡Comodidad total!",
+        "precio": "$129999",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+    {
+        "imagen": "/assets/img/hombre16.jpg",
+        "titulo": "CAMPERA UNDER ARMOUR",
+        "desc": "¡Oferta deportiva!",
+        "precio": "$179999",
+        "agregar": "Agregar Carrito",
+        "categoria": "HOMBRE"
+    },
+    {
+        "imagen": "/assets/img/mujer1.jpg",
+        "titulo": "CALZA ADIDAS",
+        "desc": "¡Queda increíble!",
+        "precio": "$49999",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },
+    {
+        "imagen": "/assets/img/mujer2.jpg",
+        "titulo": "MUSCULOSA CONVERSE",
+        "desc": "¡Ideal para entrenar!",
+        "precio": "$39999",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },
+    {
+        "imagen": "/assets/img/mujer3.jpg",
+        "titulo": "TOP PUMA",
+        "desc": "¡Comodidad total!",
+        "precio": "$69999",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },
+    {
+        "imagen": "/assets/img/mujer4.jpg",
+        "titulo": "ZAPATILLAS PUMA",
+        "desc": "¡Pisá con estilo!",
+        "precio": "$77999",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },
+    {
+        "imagen": "/assets/img/mujer5.jpg",
+        "titulo": "MUÑEQUERAS ASICS",
+        "desc": "¡Sumalas al entrenamiento!",
+        "precio": "$16000",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },
+    {
+        "imagen": "/assets/img/mujer6.jpg",
+        "titulo": "CAMPERA ADIDAS FIREBIRD",
+        "desc": "¡Abrigo con estilo!",
+        "precio": "$179999",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },
+    {
+        "imagen": "/assets/img/mujer7.jpg",
+        "titulo": "BUZO ADIDAS VERDE",
+        "desc": "¡Look deportivo!",
+        "precio": "$119999",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },
+    {
+        "imagen": "/assets/img/mujer8.jpg",
+        "titulo": "REMERA ADIDAS TRAIN",
+        "desc": "¡Entrená cómoda!",
+        "precio": "$69999",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },
+    {
+        "imagen": "/assets/img/mujer9.jpg",
+        "titulo": "CALZA UNDER ARMOUR",
+        "desc": "¡Ajuste perfecto!",
+        "precio": "$84999",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },
+    {
+        "imagen": "/assets/img/mujer10.jpg",
+        "titulo": "MALLA ENTERIZA",
+        "desc": "¡Soporte total!",
+        "precio": "$42999",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },
+    {
+        "imagen": "/assets/img/mujer11.jpg",
+        "titulo": "CALZA CORTA ATOMIK",
+        "desc": "¡Liviano y fresco!",
+        "precio": "$39999",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },
+    {
+        "imagen": "/assets/img/mujer12.jpg",
+        "titulo": "ZAPATILLAS ADIDAS DURAMO",
+        "desc": "¡Pisada cómoda!",
+        "precio": "$99999",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },
+    {
+        "imagen": "/assets/img/mujer13.jpg",
+        "titulo": "REMERA REEBOK ENERGEN",
+        "desc": "¡Luce cómoda!",
+        "precio": "$53999",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },
+    {
+        "imagen": "/assets/img/mujer14.jpg",
+        "titulo": "TOP REEBOK",
+        "desc": "¡Movimiento total!",
+        "precio": "$43999",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },
+    {
+        "imagen": "/assets/img/mujer15.jpg",
+        "titulo": "CAMPERA POLAR DEPORTIVA",
+        "desc": "¡Comodidad diaria!",
+        "precio": "$89999",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },
+    {
+        "imagen": "/assets/img/mujer16.jpg",
+        "titulo": "MOCHILA TOPPER",
+        "desc": "¡Práctica y canchera!",
+        "precio": "$19999",
+        "agregar": "Agregar Carrito",
+        "categoria": "MUJER"
+    },    {
+        "imagen": "/assets/img/niño_a1.jpg",
+        "titulo": "CANILLERAS NIKE (Niño)",
+        "desc": "¡Protección asegurada!",
+        "precio": "$29999",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    },
+    {
+        "imagen": "/assets/img/niño_a2.jpg",
+        "titulo": "MALLA ONE STEP (Niña)",
+        "desc": "¡Lista para pileta!",
+        "precio": "$54400",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    },
+    {
+        "imagen": "/assets/img/niño_a3.jpg",
+        "titulo": "MOCHILA PUMA AZUL (Unisex)",
+        "desc": "¡Súper práctica!",
+        "precio": "$42999",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    },
+    {
+        "imagen": "/assets/img/niño_a4.jpg",
+        "titulo": "REMERA ADIDAS (Unisex)",
+        "desc": "¡Cómoda y canchera!",
+        "precio": "$34999",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    },
+    {
+        "imagen": "/assets/img/niño_a5.jpg",
+        "titulo": "RODILLERAS DRB (Niña)",
+        "desc": "¡Jugá sin miedo!",
+        "precio": "$28300",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    },
+    {
+        "imagen": "/assets/img/niño_a6.jpg",
+        "titulo": "CAMPERA BOCA JUNIORS (Niño)",
+        "desc": "¡El unico grande!",
+        "precio": "$129999",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    },
+    {
+        "imagen": "/assets/img/niño_a7.jpg",
+        "titulo": "ZAPATILLAS ADDNICE (Unisex)",
+        "desc": "¡Corré con onda!",
+        "precio": "$64999",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    },
+    {
+        "imagen": "/assets/img/niño_a8.jpg",
+        "titulo": "CAMPERA ADIDAS (Niña)",
+        "desc": "¡Listo para jugar!",
+        "precio": "$89999",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    },
+    {
+        "imagen": "/assets/img/niño_a9.jpg",
+        "titulo": "MOCHILA ADIDAS TIRO (Unisex)",
+        "desc": "¡Mas canchero imposible!",
+        "precio": "$29999",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    },
+    {
+        "imagen": "/assets/img/niño_a10.jpg",
+        "titulo": "PELOTA TOPPER (Unisex)",
+        "desc": "¡Ideal para entrenar!",
+        "precio": "$23999",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    },
+    {
+        "imagen": "/assets/img/niño_a11.jpg",
+        "titulo": "SHORT NIKE (Niño)",
+        "desc": "¡Fresco y liviano!",
+        "precio": "$39999",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    },
+    {
+        "imagen": "/assets/img/niño_a12.jpg",
+        "titulo": "GORRA ADDNICE (Unisex)",
+        "desc": "¡Protegete del sol!",
+        "precio": "$15999",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    },
+    {
+        "imagen": "/assets/img/niño_a13.jpg",
+        "titulo": "CAMPERA RIVER PLATE (Niño)",
+        "desc": "¡Comodidad diaria!",
+        "precio": "$129999",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    },
+    {
+        "imagen": "/assets/img/niño_a14.jpg",
+        "titulo": "CANILLERAS UMBRO (Niño)",
+        "desc": "¡Protección con estilo!",
+        "precio": "$18999",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    },
+    {
+        "imagen": "/assets/img/niño_a15.jpg",
+        "titulo": "PANTALÓN ADIDAS ESSENTIALS (Niña)",
+        "desc": "¡Look deportivo!",
+        "precio": "$64999",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    },
+    {
+        "imagen": "/assets/img/niño_a16.jpg",
+        "titulo": "ZAPATILLA FILA RUN (Niña)",
+        "desc": "¡Entrená sin límites!",
+        "precio": "$68999",
+        "agregar": "Agregar Carrito",
+        "categoria": "NIÑO/A"
+    }
+]
