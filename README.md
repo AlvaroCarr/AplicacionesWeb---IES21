@@ -7,4 +7,4 @@ Tienda online de ropa deportiva. El catálogo está organizado en tres categorí
  -CSS
  -JavaScript
 
- link deploy: magical-taffy-420bfa.netlify.app
+ link deploy: jocular-pie-f2ffda.netlify.app
