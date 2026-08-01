@@ -2,7 +2,7 @@ let contenedor = document.querySelector('.cards');
 let categoria = document.querySelector('.categoria');
 
 
-fetch("/assets/js/productos.json") 
+fetch("assets/js/productos.json") 
 
 .then(response => response.json())
 
