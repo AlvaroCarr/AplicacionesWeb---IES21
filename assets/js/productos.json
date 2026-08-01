@@ -1,6 +1,6 @@
 [
     {
-        "imagen": "/assets/img/hombre1.jpg",
+        "imagen": "../assets/img/hombre1.jpg",
         "titulo": "CAMISETA BOCA JUNIORS",
         "desc": "¡Ultima en oferta!",
         "precio": "$149999",
