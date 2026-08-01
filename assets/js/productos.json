@@ -1,6 +1,6 @@
 [
     {
-        "imagen": "..../assets//img/hombre1.jpg",
+        "imagen": "../assets//img/hombre1.jpg",
         "titulo": "CAMISETA BOCA JUNIORS",
         "desc": "¡Ultima en oferta!",
         "precio": "$149999",
@@ -8,7 +8,7 @@
         "categoria": "HOMBRE"
     },
     {
-        "imagen": "..../assets///img/hombre2.jpg",
+        "imagen": "../assets///img/hombre2.jpg",
         "titulo": "CAMPERA REEBOK",
         "desc": "¡Oferta imperdible!",
         "precio": "$156299",
