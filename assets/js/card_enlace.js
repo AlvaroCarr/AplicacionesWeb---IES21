@@ -4,10 +4,6 @@ let categoria = document.querySelector('.categoria');
 
 fetch("../assets/js/productos.json")
 
-//let rutaJSON = window.location.pathname.includes("/pages/") ? "../assets/js/productos.json" : "assets/js/productos.json"; // Define la ruta según la ubicación del HTML
-
-//fetch(rutaJSON) // Llama al JSON con la ruta correcta
-
 .then(response => response.json())
 
 .then(productos => 

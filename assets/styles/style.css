@@ -26,6 +26,16 @@ header {
     z-index: 1000;
 }
 
+.portada { 
+    width: 100%; 
+    height: 566px; 
+}
+
+.portada img { 
+    width: 100%; 
+    height: 460px; 
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -62,6 +72,92 @@ header {
     background-color: #025e53; /*#14b8a6;*/
     color: #ffffff;
     transform: translateY(-2px);
+}
+
+.info-envio {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.info-envio-card {
+    width: 286px;
+    background-color: #ffffff;
+}
+
+.info-envio-header {
+    height: 48px;
+    background-color: #f10101;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 9px;
+}
+
+.info-envio-header img {
+    width: 27px;
+    height: 27px;
+    object-fit: contain;
+}
+
+.info-envio-header span {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.info-envio-body {
+    padding: 13px 9px;
+}
+
+.info-envio-body h3 {
+    margin: 0 0 7px;
+    color: #111111;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.info-envio-body p {
+    margin: 0 0 10px;
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+.marcas {
+
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.marca {
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.marca:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.22);
+}
+
+.marca img {
+    width: 75%;
+    height: 75%;
+    object-fit: contain;
 }
 
 .acceso {
